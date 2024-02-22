@@ -6,10 +6,10 @@ const CONFIG = {
     role: "Trader",
     bio: "this is my bio.",
     email: "jonas.smsg@gmail.com",
+    linkedin: "",
     github: "jonassahin01",
     instagram: "jonas.sahin01",
-    x: "@jonassahin01",
-    youtube: "@Jonas066",
+    
   },
   projects: [
     {
