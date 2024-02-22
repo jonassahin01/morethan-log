@@ -20,14 +20,14 @@ const CONFIG = {
   // blog setting (required)
   blog: {
     title: "Jonas Blog",
-    description: "welcome to blog!",
+    description: "Welcome to Jonas' blog! Discover trading insights and more. Your go-to for valuable knowledge beyond trading.",
   },
 
   // CONFIG configration (required)
   link: "https://jonas-blog-eight.vercel.app",
   since: 2024, // If leave this empty, current year will be used.
   lang: "en-US", // ['en-US', 'zh-CN', 'zh-HK', 'zh-TW', 'ja-JP', 'es-ES', 'ko-KR']
-  ogImageGenerateURL: "https://og-image-korean.vercel.app", // The link to generate OG image, don't end with a slash
+  ogImageGenerateURL: "https://og-image-korean.vercel.app/Jonas%20Blog.png?theme=light&md=1&fontSize=100px&images=https%3A%2F%2Fmorethan-log.vercel.app%2Favatar.svg&images=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2Fremojansen%2Flogo.ts%40master%2Fts.svg", // The link to generate OG image, don't end with a slash
 
   // notion configuration (required)
   notionConfig: {
