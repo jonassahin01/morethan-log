@@ -42,13 +42,13 @@ const CONFIG = {
     },
   },
   googleSearchConsole: {
-    enable: false,
+    enable: true,
     config: {
       siteVerification: process.env.NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION || "txgS6EXih9YcFJr4KfZ9IV9MswZeedAbD-FU4PZIT7Y",
     },
   },
   naverSearchAdvisor: {
-    enable: false,
+    enable: true,
     config: {
       siteVerification: process.env.NEXT_PUBLIC_NAVER_SITE_VERIFICATION || "25ede61c0db130b0c599aeceecdce912c3604ea2",
     },
@@ -62,7 +62,7 @@ const CONFIG = {
     },
   },
   cusdis: {
-    enable: false,
+    enable: true,
     config: {
       host: "https://cusdis.com",
       appid: "821a80e1-9382-4499-a30f-ebfd8e3d920b", // Embed Code -> data-app-id value
