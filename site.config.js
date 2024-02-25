@@ -44,13 +44,13 @@ const CONFIG = {
   googleSearchConsole: {
     enable: false,
     config: {
-      siteVerification: process.env.NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION || "",
+      siteVerification: process.env.NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION || "txgS6EXih9YcFJr4KfZ9IV9MswZeedAbD-FU4PZIT7Y",
     },
   },
   naverSearchAdvisor: {
     enable: false,
     config: {
-      siteVerification: process.env.NEXT_PUBLIC_NAVER_SITE_VERIFICATION || "",
+      siteVerification: process.env.NEXT_PUBLIC_NAVER_SITE_VERIFICATION || "25ede61c0db130b0c599aeceecdce912c3604ea2",
     },
   },
   utterances: {
